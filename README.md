@@ -1,2 +1,2 @@
 # Quiz-app
-this is small Quiz app
+This is small Quiz app
