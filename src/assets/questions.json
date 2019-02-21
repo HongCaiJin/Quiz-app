@@ -1,63 +1,59 @@
 {
-  "quiz": {
-    "delphi": {
-      "q1": {
-        "id": 1,
-        "question": "How do you increment an integer variable by one?",
-        "options": [
-          "i = i + 1;",
-          "i := i + 1;",
-          "Add(i, 1);",
-          "while i < 2 do i;"
-        ],
-        "answer": "i := i + 1;"
-      },
-      "q2": {
-        "id": 2,
-        "question": "Which for loop is correct?",
-        "options": [
-          "for i := 1 do try;",
-          "for i = 0, i < 4, i++;",
-          "for i := 1 to 4 do Inc(i);",
-          "for i < 5 do i := +1;"
-        ],
-        "answer": "for i := 1 to 4 do Inc(i);"
-      },
-      "q3": {
-        "id": 3,
-        "question": "What is a method? ",
-        "options": [
-          "any procedure or function that is part of a class",
-          "the right way to do something",
-          "the best way to do something",
-          "a recurring function"
-        ],
-        "answer": "any procedure or function that is part of a class"
-      }
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Which is the largest country in the world by population?",
+      "options": [
+        "India",
+        "USA",
+        "China",
+        "Russia"
+      ],
+      "answer": "China"
     },
-    "python": {
-      "id":4,
-      "q1": {
-        "question": "5 + 7 = ?",
-        "options": [
-          "10",
-          "11",
-          "12",
-          "13"
-        ],
-        "answer": "12"
-      },
-      "q2": {
-        "id":5,
-        "question": "12 - 8 = ?",
-        "options": [
-          "1",
-          "2",
-          "3",
-          "4"
-        ],
-        "answer": "4"
-      }
+    {
+      "id": 2,
+      "question": "When did the second world war end?",
+      "options": [
+        "1945",
+        "1939",
+        "1944",
+        "1942"
+      ],
+      "answer": "1945"
+    },
+    {
+      "id": 3,
+      "question": "Which was the first country to issue paper currency?",
+      "options": [
+        "USA",
+        "France",
+        "Italy",
+        "China"
+      ],
+      "answer": "China"
+    },
+    {
+      "id": 4,
+      "question": "Which city hosted the 1996 Summer Olympics?",
+      "options": [
+        "Atlanta",
+        "Sydney",
+        "Athens",
+        "Beijing"
+      ],
+      "answer": "Atlanta"
+    },
+    {
+      "id": 5,
+      "question": "Who invented telephone?",
+      "options": [
+        "Albert Einstein",
+        "Alexander Graham Bell",
+        "Isaac Newton",
+        "Marie Curie"
+      ],
+      "answer": "Alexander Graham Bell"
     }
-  }
+  ]
 }
